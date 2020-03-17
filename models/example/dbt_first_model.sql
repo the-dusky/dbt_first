@@ -1,1 +1,3 @@
-SELECT * FROM belair_athletics_shopify.orders
+{% set schemaName = 'belair_athletics_shopify' %}
+
+SELECT * FROM {{schemaName}}.orders
